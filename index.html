@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techpedia - Learn CS Easily</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2>Techpedia</h2>
+
+        <input type="text" class="search-box" placeholder="Search topics..." id="searchInput">
+
+        <div id="topicList">
+            <a href="#" class="topic" data-content="Introduction to Computers">Introduction to Computers</a>
+            <a href="#" class="topic" data-content="Operating Systems">Operating Systems</a>
+            <a href="#" class="topic" data-content="Computer Hardware">Computer Hardware</a>
+            <a href="#" class="topic" data-content="Networking Basics">Networking Basics</a>
+            <a href="#" class="topic" data-content="Internet & Web">Internet & Web</a>
+            <a href="#" class="topic" data-content="Programming Logic">Programming Logic</a>
+            <a href="#" class="topic" data-content="C Programming">C Programming</a>
+            <a href="#" class="topic" data-content="Python Basics">Python Basics</a>
+            <a href="#" class="topic" data-content="Java Basics">Java Basics</a>
+            <a href="#" class="topic" data-content="Databases">Databases</a>
+            <a href="#" class="topic" data-content="SQL Queries">SQL Queries</a>
+            <a href="#" class="topic" data-content="Computer Security">Computer Security</a>
+            <a href="#" class="topic" data-content="Cryptography">Cryptography</a>
+            <a href="#" class="topic" data-content="AI Basics">AI Basics</a>
+            <a href="#" class="topic" data-content="Machine Learning">Machine Learning</a>
+            <a href="#" class="topic" data-content="Computer Vision">Computer Vision</a>
+            <a href="#" class="topic" data-content="Web Development">Web Development</a>
+            <a href="#" class="topic" data-content="Cloud Computing">Cloud Computing</a>
+            <a href="#" class="topic" data-content="Cyber Laws">Cyber Laws</a>
+            <a href="#" class="topic" data-content="Future of Computing">Future of Computing</a>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <div class="card">
+            <h1>Welcome to Techpedia</h1>
+            <p>Select a topic from the left sidebar to begin learning.</p>
+        </div>
+    </main>
+
+    <!-- POPUP MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent"></p>
+            <button class="btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
